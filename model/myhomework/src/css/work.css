@@ -1,0 +1,147 @@
+ body,h1,h2,h3,h4,h5,h6,dl,dt,dd,p,ul,li{margin:0;padding:0;}
+      body{font-size:12px;font-family:"微软雅黑";}
+      ol,ul,li{list-style:none;}
+      a{text-decoration:none;}
+      img{display:block;
+		border:0; }
+      
+	:after{content:".";
+		clear:both;
+	    display:block;
+        height:0;
+        overflow:hidden;
+        visibility:hidden;
+}
+body{
+	width: 100%;
+	
+}
+#work1{
+ 	width: 100%;
+   	height: 700px;
+   	position: relative;
+   	overflow: hidden;
+}
+#total{
+	width:600%;
+	height: 700px;
+	position: absolute;
+	top:0;
+	transition: 0.7s;
+}
+.photo{
+	width: 16.6666667%;
+	height: 700px;
+	float:left;
+	position: relative;
+}
+/*#amour{*/
+	/*display: block;
+	position:relative;
+	left:0;
+	float: left;
+	width: 65%;
+	height: 650px;*/
+	/*background: #fad4ea;*/
+/*}*/
+#amour {
+	font-size: 240px;
+	line-height:240px;
+	color: #FFFFFF;
+	letter-spacing: 3px;
+	width: 800px;
+	height: 300px;
+	position: absolute;
+	left: 0;
+	top: 100px;
+}
+#will{
+	display: block;
+	width:350px;
+	height: 300px;
+	position: absolute;
+	right:0;
+	top: 100px;
+	text-align: right;
+	/*float: right;*/
+	font-size: 240px;
+	letter-spacing: 3px;
+	color: #FFFFFF;
+	line-height: 240px;
+}
+
+.pict{
+	transition: 0.5s;
+	position: relative;
+	left:0;
+	top:0;
+	width: 100%;
+	height: 700px;
+	transition: 0.5s;
+}
+/*#pic1{
+	left: 0;
+	top: 0;
+}
+#pic2{
+	left: 100%;
+	top: 0;
+}
+#pic3{
+	left: 200%;
+	top: 0;
+}
+#pic4{
+	left: 300%;
+	top: 0;
+}
+#pic5{
+	left: 400%;
+	top: 0;
+}
+#pic6{
+	left: 500%;
+	top: 0;
+}*/
+
+#pic1 img:nth-child(1),#pic4 img:nth-child(1),#pic6 img:nth-child(1){
+	width: 300px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	left: 160px;
+	transition: 1s;
+}
+#pic1 img:nth-child(2),#pic4 img:nth-child(2),#pic6 img:nth-child(2){
+	width: 250px;
+	height: 500px;
+	position: absolute;
+	left: 800px;
+	top: 0;
+	transition: 1s;
+}
+#pic1 img:nth-child(3),#pic4 img:nth-child(3),#pic6 img:nth-child(3){
+	width: 300px;
+	height:200px;
+	position: absolute;
+	left: 0px;
+	top: 450px;
+	transition: 1s;
+}
+#pic1 img:nth-child(4),#pic4 img:nth-child(4),#pic6 img:nth-child(4){
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	left: 500px;
+	top: 450px;
+	transition: 1s;
+
+}
+#pic2 img,#pic3 img,#pic5 img{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	left: 400px;
+	top: 150px;
+	transition: 1s;
+}

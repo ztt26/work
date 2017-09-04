@@ -1,0 +1,158 @@
+@keyframes move{
+	from{
+		transform: rotate(-35deg) translateX(200px) translateY(-20px);
+		opacity: 0;
+	}
+	to{
+		transform: rotate(0deg) translateX(0px) translateY(0px);
+		opacity: 1;
+	}
+}
+body{
+	position: relative;
+}
+#contact1{
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+#contact1 img{
+	width: 33%;
+	height: 600px;
+	float: left;
+	transform: rotate(-20deg) translateX(50px) translateY(-50px);
+	animation: move 0.5s ease-in 0s forwards;
+}
+#contact2{
+	width: 100%;
+	height: 500px;
+	margin-bottom: 200px;
+	position: relative;
+}
+#contact2lef1{
+	height: 89px;
+	margin-bottom: 45px;
+	position: absolute;
+	left:180px;
+	top:200px;
+}
+#contact2lef2{
+	height: 89px;
+	margin-bottom: 45px;
+	position: absolute;
+	left:180px;
+	top:340px;
+}
+#contact2lef1 h1,#contact2lef2 h1{
+	height: 30px;
+	margin-bottom: 15px;
+	font-size: 28px;
+	color: #000;
+}
+#contact2lef1 p,#contact2lef2 p{
+	color: #c4c4c4;
+	height: 44px;
+	line-height: 25px;
+	height: 20px;
+}
+#contact2lef2{
+	height:67px;
+}
+#contact2rig{
+	width: 562px;
+	height: 444px;
+	font-size: 370px;
+	color: #f5f5f5;
+	font-weight: bold;
+	position: absolute;
+	right: 0;
+	top: -30px;
+}
+#contact3 img{
+	height: 750px;
+	overflow: hidden;
+	width: 100%;
+}
+#contact3{
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	left: 0;
+	top: 1100px;
+}
+#contact4{
+	width:100%;
+	height: 550px;
+	position: relative;
+	top:800px;
+}
+#contact4lef{
+	position:absolute;
+	left: 180px;
+	top: 100px;
+	width: 30%;
+}
+em{
+	font-size:12px;
+	color: #A9A9A9;
+	font-style: normal;
+}
+#contact4 h1{
+	height: 39px;
+	font-size: 38px;
+	color: #000;
+	margin-bottom: 70px;
+}
+#contact4 h4{
+	margin-bottom: 30px;
+	font-size: 28px;
+	color: #3a3a3a;
+	
+}
+#contact4  p:nth-child(1){
+	height: 66px;
+	margin-bottom: 30px;
+	color: #b2b2b2;
+	font-size:20px;
+	
+}
+#contact4rig{
+	width: 631px;
+	height: 444px;
+	position: absolute;
+	right: 100px;
+	top: 150px;
+	font-size: 370px;
+	color: #f5f5f5;
+	font-weight: bold;
+}
+#contact4 img{
+	width: 378px;
+	height: 558px;
+	position: absolute;
+	right: 360px;
+	top: -93px;
+}
+#contactfooter{
+	width: 100%;
+	height: 518px;
+	background: #000000;
+	position: relative;
+	top:700px;
+}
+#contactfooter p{
+	width: 240px;
+	height: 38px;
+	float: left;
+	position: absolute;
+	left:580px;
+	top: 259px;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+#contactfooter p a{
+	display: block;
+	float: right;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
